@@ -8,7 +8,7 @@ while __name__ in '__main__':
 
         case "Help":
             ClrTrm.clear()
-            print("Current commands are:\nFuthark\nRando\nSarra\nBroadcast\nHER\nExit\n")
+            print("Current commands are:\nRando\nSarra\nBroadcast\nHER\nExit\n")
             input("")
             ClrTrm.clear()
         
@@ -21,14 +21,14 @@ while __name__ in '__main__':
         case "Sarra":
             Sarra.begin()
 
-        case "Furthark":
-            Furthark.begin()
-
         case "Broadcast":
             Broadcast.begin()
 
         case "HER":
             PixelatedNightmare.begin()
-
+            
+        case "Hare":
+            HareTrick.begin()
+            
         case "Exit":
             exit()
